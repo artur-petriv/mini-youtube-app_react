@@ -1,0 +1,43 @@
+.channelRow {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.channelRow__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.channelRow__text > p {
+  color: #606060;
+  font-size: small !important;
+}
+
+.channelRow__logo {
+  margin: 10px 60px;
+  height: 120px !important;
+  width: 120px !important;
+}
+
+.channelRow__text > h4 {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.channelRow__text > h4 > p {
+  font-weight: 500;
+}
+
+.channelRow__text > h4 + p {
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.channelRow__text > h4 > svg {
+  margin-left: 5px;
+  font-size: 16px !important;
+  color: #606060;
+}
